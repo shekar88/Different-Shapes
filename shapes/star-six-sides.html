@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shapes</title>
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/font-awesome-5.6.3.css">
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/mdb.css">
+    <link rel="stylesheet" type="text/css" href="./../css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">Shapes</a>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="shpaes-wrap border pb-5">
+                    <h6>Star (6-points) Shape</h6>
+                    <!-- Star (6-points) Shape -->
+                    <div id="star-six-sides" class="mx-auto"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-12">
+                <div class="html-code-wrap">
+                    <h1>HTML</h1>
+                    <code>
+                        &lt;div id="star-six-sides"&gt;&lt;/div&gt;
+                    </code>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm12 col-12">
+                <div class="css-code-wrap">
+                    <h1>CSS</h1>
+                    <code>&#35;star-six-sides &#123;</code><br>
+                        <code class="xs-ind">position: relative;</code><br>
+                        <code class="xs-ind">width: 0;</code><br>
+                        <code class="xs-ind">height: 0;</code><br>
+                        <code class="xs-ind">border-left: 50px solid transparent;</code><br>
+                        <code class="xs-ind">border-right: 50px solid transparent;</code><br>
+                        <code class="xs-ind">border-bottom: 100px solid green;</code><br>
+                    <code>&#125;</code><br>
+                    <code>&#35;star-six-sides:after &#123;</code><br>
+                        <code class="xs-ind">position: absolute;</code><br>
+                        <code class="xs-ind">content: '';</code><br>
+                        <code class="xs-ind">width: 0;</code><br>
+                        <code class="xs-ind">height: 0;</code><br>
+                        <code class="xs-ind">border-left: 50px solid transparent;</code><br>
+                        <code class="xs-ind">border-right: 50px solid transparent;</code><br>
+                        <code class="xs-ind">border-top: 100px solid red;</code><br>
+                        <code class="xs-ind">top: 30px;</code><br>
+                        <code class="xs-ind">left: -50px;</code><br>
+                    <code>&#125;</code>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<script src="../bootstrap/js/jquery-3.3.1.min.js"  type="text/javascript"></script>
+<script src="../bootstrap/js/popper.min.js" type="text/javascript"></script>
+<script src="../bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="../bootstrap/js/mdb.min.js" type="text/javascript"></script>
+
+</body>
+</html>
